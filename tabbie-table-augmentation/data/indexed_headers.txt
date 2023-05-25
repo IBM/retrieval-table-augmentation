@@ -1,0 +1,21 @@
+{'bert': {'token_ids': tensor([[[ 101, 2946,  102,    0,    0,    0],
+         [ 101, 2149,  102,    0,    0,    0],
+         [ 101, 5282,  102,    0,    0,    0],
+         [ 101, 2859,  102,    0,    0,    0],
+         [ 101, 2900, 1006, 4642, 1007,  102],
+         [ 101, 7327,  102,    0,    0,    0],
+         [ 101, 2866,  102,    0,    0,    0]]], device='cuda:0')
+, 'mask': tensor([[[ True,  True,  True, False, False, False],
+         [ True,  True,  True, False, False, False],
+         [ True,  True,  True, False, False, False],
+         [ True,  True,  True, False, False, False],
+         [ True,  True,  True,  True,  True,  True],
+         [ True,  True,  True, False, False, False],
+         [ True,  True,  True, False, False, False]]], device='cuda:0')
+, 'type_ids': tensor([[[0, 0, 0, 0, 0, 0],
+         [0, 0, 0, 0, 0, 0],
+         [0, 0, 0, 0, 0, 0],
+         [0, 0, 0, 0, 0, 0],
+         [0, 0, 0, 0, 0, 0],
+         [0, 0, 0, 0, 0, 0],
+         [0, 0, 0, 0, 0, 0]]], device='cuda:0')}}
