@@ -1,0 +1,78 @@
+cff-version: 1.2.0
+title: Retrieval-Based Transformer for Table Augmentation
+message: 'If you use this software, please cite it as below.'
+type: software
+authors:
+  - family-names: Glass
+    given-names: Michael
+    orcid: 'https://orcid.org/0009-0000-1505-4667'
+    affiliation: IBM Research AI
+  - family-names: Wu
+    given-names: Xuecheng
+    affiliation: IBM Research AI
+  - family-names: Naik
+    given-names: Ankita
+    affiliation: IBM Research AI
+  - family-names: Rossiello
+    given-names: Gaetano
+    orcid: 'https://orcid.org/0000-0003-1042-4782'
+    affiliation: IBM Research AI
+  - family-names: Gliozzo
+    given-names: Alfio
+    orcid: 'https://orcid.org/0000-0002-8044-2911'
+    affiliation: IBM Research AI
+url: 'https://github.com/IBM/retrieval-table-augmentation'
+abstract: >-
+  Data preparation, also called data wrangling, is
+  considered one of the most expensive and time-consuming
+  steps when performing analytics or building machine
+  learning models.  Preparing data typically involves
+  collecting and merging data from complex heterogeneous,
+  and often large-scale data sources, such as data lakes. 
+  In this paper, we introduce a novel approach toward
+  automatic data wrangling in an attempt to alleviate the
+  effort of end-users, e.g. data analysts, in structuring
+  dynamic views from data lakes in the form of tabular
+  data.  Given a corpus of tables, we propose a retrieval
+  augmented transformer model that is self-trained for the
+  table augmentation tasks of row/column population and data
+  imputation.  Our self-learning strategy consists in
+  randomly ablating tables from the corpus and training the
+  retrieval-based model with the objective of reconstructing
+  the partial tables given as input with the original values
+  or headers.  We adopt this strategy to first train the
+  dense neural retrieval model encoding portions of tables
+  to vectors, and then the end-to-end model trained to
+  perform table augmentation tasks.  We test on EntiTables,
+  the standard benchmark for table augmentation, as well as
+  introduce a new benchmark to advance further research:
+  WebTables.  Our model consistently and substantially
+  outperforms both supervised statistical methods and the
+  current state-of-the-art transformer-based models.
+license: MIT
+version: 1
+date-released: '2023-06-16'
+preferred-citation:
+  type: article
+  authors:
+  - family-names: Glass
+    given-names: Michael
+    orcid: 'https://orcid.org/0009-0000-1505-4667'
+    affiliation: IBM Research AI
+  - family-names: Wu
+    given-names: Xuecheng
+    affiliation: IBM Research AI
+  - family-names: Naik
+    given-names: Ankita
+    affiliation: IBM Research AI
+  - family-names: Rossiello
+    given-names: Gaetano
+    orcid: 'https://orcid.org/0000-0003-1042-4782'
+    affiliation: IBM Research AI
+  - family-names: Gliozzo
+    given-names: Alfio
+    orcid: 'https://orcid.org/0000-0002-8044-2911'
+    affiliation: IBM Research AI
+  journal: Annual Meeting of the Association for Computational Linguistics
+  title: Retrieval-Based Transformer for Table Augmentation
+  year: 2023
