@@ -145,3 +145,12 @@ python ${PYTHONPATH}/extractive/raex_apply.py \
 ### NOTE: cell population
 Cell filling is documented under table_augmentation/cell_filling
 
+## Citation
+```
+@inproceedings{glass2023retrieval,
+  title={Retrieval-Based Transformer for Table Augmentation},
+  author={Glass, Michael and Wu, Xuecheng and Naik, Ankita and Rossiello, Gaetano and Gliozzo, Alfio},
+  booktitle={Annual Meeting of the Association for Computational Linguistics},
+  year={2023}
+}
+```
